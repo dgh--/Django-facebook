@@ -13,3 +13,10 @@
 
 As far as I can recall, all I really had to do to monkey patch an older version of Django-facebook to get it to work with the v2.3 version of the API was to change the URLs, but Ive got a feeling that there must have been more to it than that.
 
+Unrelated, but I keep forgetting how to check out a tag;
+
+    git tag -l
+    git checkout tags/<tag_name>
+
+http://stackoverflow.com/questions/791959/download-a-specific-tag-with-git
+
