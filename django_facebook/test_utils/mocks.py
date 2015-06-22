@@ -56,14 +56,6 @@ class MockFacebookAPI(OpenFacebook):
     def set(self, path, **kwargs):
         return dict(id=123456789)
 
-    def fql(self, query, **kwargs):
-        """Runs the specified query against the Facebook FQL API.
-        """
-        friend = dict(name="Aida Tavakkolie", uid=172001264, gender='F')
-        response = [friend]
-
-        return response
-
 
 class MockFacebookAuthorization(FacebookAuthorization):
 

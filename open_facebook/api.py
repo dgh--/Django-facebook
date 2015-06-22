@@ -120,8 +120,6 @@ class FacebookConnection(object):
     of Facebook API responses
     '''
     api_url = 'https://graph.facebook.com/'
-    # this older url is still used for fql requests
-    old_api_url = 'https://api.facebook.com/method/'
 
     @classmethod
     def request(cls, path='', post_data=None, old_api=False, **params):
